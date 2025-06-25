@@ -1,8 +1,8 @@
 
-a =int(input('Enter a number: '))
+a = int(input('Enter a number'))
 
-i=1
+if a%2==0:
+    print('Even')
+else:
+    print('Odd')
 
-for i in range(a):
-    print(i)
-    i = i+1
